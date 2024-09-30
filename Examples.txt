@@ -1,0 +1,40 @@
+S → aBDh
+B → cC
+C → bC | λ
+D → EF
+E → g | λ
+F → f | λ
+
+S → ACB | Cbb | Ba
+A → da | BC
+B → g | λ
+C → h |  λ
+
+S → AB
+A → Sx | x | λ
+B → yB | y
+C → ACA | z
+
+S → Aa
+A → Ab | c
+
+S → A B c
+A → a A | b
+B → A b | a
+
+S → AB
+A → Sx | x | λ
+B → yB | y
+C → ACA | Ca
+--------------------
+
+S → aA | B
+A → a | B
+B → bB | C
+C → b
+
+S → ACB | Cbb | D
+A → da | BC
+B → g | λ
+C → h |  λ
+D → aA
