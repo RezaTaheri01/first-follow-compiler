@@ -15,17 +15,17 @@ This project is a web-based tool for calculating the First and Follow sets of a 
 1. Enter the grammar in the text area in the format:
 
 ```
-S → ACB | Cbb | Ba
-A → da | BC
-B → g | λ
-C → h | λ
+  S → ACB | Cbb | Ba
+  A → da | BC
+  B → g | λ
+  C → h | λ
 ```
 
 2. Use shortcuts to insert special symbols:
 
-- **1**:**→**
-- **2**:**|**
-- **3**:**λ**
+- **1** : **→**
+- **2** : **|**
+- **3** : **λ**
 
 3. Press the Check Grammar button to calculate the First and Follow sets.
 
@@ -34,8 +34,7 @@ C → h | λ
 1. Clone the repository:
 
 ```
-git clone https://github.com/RezaTaheri01/first-follow-compiler.git
-
+  git clone https://github.com/RezaTaheri01/first-follow-compiler.git
 ```
 
 2. Open index.html in your browser.
